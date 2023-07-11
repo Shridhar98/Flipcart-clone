@@ -1,0 +1,76 @@
+@media screen and (max-width : 808px) {
+    body {
+        background-color: white;
+    }
+
+    nav {
+
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+
+        justify-content: center;
+        align-items: center;
+        margin: 8px 0;
+
+    }
+
+    nav ul {
+        margin: 8px 0;
+        height: 20px;
+
+        justify-content: center;
+    }
+
+    .search-bar {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .search-bar btn {
+        width: 65px;
+        height: 28px;
+    }
+
+    .search-bar input {
+        margin: 0;
+    }
+
+    .fa fa-search {
+        display: none;
+    }
+
+    .more {
+        display: none;
+        justify-content: center;
+    }
+
+    .seller {
+        display: none;
+        justify-content: center;
+    }
+
+    .cart {
+        padding-top: 7px;
+        justify-content: center;
+    }
+
+    .slider {
+        height: 30vh;
+        margin: 5px auto;
+    }
+
+    .slider img {
+        width: 80vw;
+        height: 30vh;
+    }
+    footer p{
+        font-size: 10px;
+
+    }
+   
+}
+
